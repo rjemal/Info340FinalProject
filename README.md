@@ -6,8 +6,8 @@ This repository contains our group project for Info340. This project is a web ap
     
     Finding A Community
     
-    - Users are able to find existing communities abroad by simply clicking the find community     tab.
-    - Users are able to find communities by selecting they city they are living in abroad and     have the option of adding additional tags to help find specific communities they are     
+    - Users are able to find existing communities abroad by simply clicking the find community tab.
+    - Users are able to find communities by selecting they city they are living in abroad and have the option of adding additional tags to help find specific communities they are     
       interested in
     - Those who join a community are able to see things such as planned hangouts, advice,
       resturant recommendations, and hostel reviews by other like minded peoople in the community
