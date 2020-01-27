@@ -1,0 +1,30 @@
+.b-nav__wrap {
+    background-color: #536dfe;
+    height: 80px;
+    font-family: 'Crete Round', serif;
+}
+
+#continue-nav {
+    font-family: 'Crete Round', serif;
+    background-color: #8c9eff;
+}
+
+#title {
+    font-size: 30px;
+}
+
+.b-nav__link {
+    color: white;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.b-nav__link:hover {
+    color: #c0cfff;
+}
+
+#continue-nav {
+    font-size: 15px;
+    margin-left: 50px;
+}
