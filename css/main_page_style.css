@@ -49,6 +49,7 @@ p{
 color: grey;
 
 }
+
 @media(min-width: 300px){
     p{
         size: 30;

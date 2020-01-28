@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="find community page of the web app">
     <meta name="author" content="Rae Ouyang, Rawuda Jemal, and Bootstrap contributors">
-    <title>Find Your Community | Travel Community</title>
+    <title>Travel Community</title>
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-    <link href="https://assets-global.website-files.com/583347ca8f6c7ee058111b3b/css/webflow-dot-com.webflow.04be4bec7.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://assets-global.website-files.com/583347ca8f6c7ee058111b3b/css/webflow-dot-com.webflow.04be4bec7.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/find_page_style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -28,9 +28,27 @@
                     <a id="continue-nav" href="#" class="nav__sign-up cc-black cc-main w-inline-block">
                         <div>Sign in</div>
                     </a>
+
+                    <div data-dealy="0" class="b-nav-menu__dropdown w-dropdown">
+                      <div data-ix="blog-nav-menu" class="b-menu-icon__wrap w-dropdown-toggle">
+                        <div class="b-menu-icon cc-menu-icon--lll"></div>
+                        <div class="b-menu-icon cc-menu-icon--x"></div>
+                      </div>
+                      <nav class="b-nav-menu__list w-dropdown-list">
+                        <a href="/find_community_page.html" class="b-nav-menu__list w-dropdown-link">Find Community</a>
+                        <a href="/create_community_page.html" class="b-nav-menu__list w-dropdown-link">Create Community</a>
+                        <a href="#" class="nav__sign-up cc-blog cc-mobile w-button" class="b-nav-menu__list w-dropdown-link">Sign in</a>
+                      </nav>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div data-ix="blog-nav-menu" class="b-menu-icon__wrap w-dropdown-toggle" tabindex="0" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" style="outline: none;">
+          <div class="b-menu-icon cc-menu-icon--lll" style="display: block;"></div>
+          <div class="b-menu-icon cc-menu-icon--x" style="display: none;"></div>
+        </div>
+
     </nav>
 
     <div class="buttons">
@@ -41,7 +59,7 @@
             <button type="button" class="btn btn-secondary">Tag</button>
         </div>
         <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary">Type</button>
+          <button type="button" class="btn btn-secondary">Type</button>
         </div>
     </div>
 
@@ -53,24 +71,21 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/sample.jpg" class="d-block w-100" alt="...">
+            <img src="img/tokyo.jpg" class="d-block w-100" alt="tokyo city">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h5>City: Tokyo</h5>
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/sample.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h5>Tag: Women</h5>
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/sample.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <h5>Type: Exchange Students</h5>
             </div>
           </div>
         </div>
