@@ -40,11 +40,12 @@ body {
 .buttons {
     margin-left: 10px;
     width: 60%;
-    margin-top: 7px;
+    margin-top: 5px;
+   
 }
 
 .btn-group {
-    width: 40%;
+    width: 30%;
 }
 
 .btn-secondary {
