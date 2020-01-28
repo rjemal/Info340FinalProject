@@ -19,7 +19,12 @@
     padding-left: 25px;
     padding-right: 25px;
 }
-
+.b-nav__link2 {
+    color: lightcyan;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .b-nav__link:hover {
     color: #c0cfff;
 }
@@ -27,4 +32,25 @@
 #continue-nav {
     font-size: 15px;
     margin-left: 50px;
+}
+.container{
+  padding: 100px; 
+  
+}
+h1{
+text-align: center;
+}
+img{
+    max-width: 300px;
+    text-align: left;
+ 
+}
+p{
+color: grey;
+
+}
+@media(min-width: 300px){
+    p{
+        size: 30;
+    }
 }
