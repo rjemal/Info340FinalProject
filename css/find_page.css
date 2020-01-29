@@ -75,7 +75,7 @@ body {
     }
 
     .card-img-top {
-        border-radius: 10px;
+        border-top: 10px;
     }
     
     .btn-primary {
