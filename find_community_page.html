@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Rawuda Jemal">
-    <meta name="description" content="This is the create a community page">
-    <title>Travel Community - Create Your Community</title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="main page of the web app">
+    <meta name="author" content="Rae Ouyang, Rawuda Jemal, and Bootstrap contributors">
+    <title>Travel Community | Find Community</title>
+
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-    <link rel="stylesheet" href="css/find_page_style.css">
+    <link rel="stylesheet" href="https://assets-global.website-files.com/583347ca8f6c7ee058111b3b/css/webflow-dot-com.webflow.04be4bec7.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/find_page.css">
 </head>
 
 <body>
@@ -28,8 +29,25 @@
                     <a id="continue-nav" href="#" class="nav__sign-up cc-black cc-main w-inline-block">
                         <div>Sign in</div>
                     </a>
+
+                    <div data-dealy="0" class="b-nav-menu__dropdown w-dropdown">
+                      <div data-ix="blog-nav-menu" class="b-menu-icon__wrap w-dropdown-toggle">
+                        <div class="b-menu-icon cc-menu-icon--lll"></div>
+                        <div class="b-menu-icon cc-menu-icon--x"></div>
+                      </div>
+                      <nav class="b-nav-menu__list w-dropdown-list">
+                        <a href="/find_community_page.html" class="b-nav-menu__list w-dropdown-link">Find Community</a>
+                        <a href="/create_community_page.html" class="b-nav-menu__list w-dropdown-link">Create Community</a>
+                        <a href="#" class="nav__sign-up cc-blog cc-mobile w-button" class="b-nav-menu__list w-dropdown-link">Sign in</a>
+                      </nav>
+                    </div>
                 </div>
             </div>
+        </div>
+
+        <div data-ix="blog-nav-menu" class="b-menu-icon__wrap w-dropdown-toggle" tabindex="0" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" style="outline: none;">
+          <div class="b-menu-icon cc-menu-icon--lll" style="display: block;"></div>
+          <div class="b-menu-icon cc-menu-icon--x" style="display: none;"></div>
         </div>
     </nav>
 
@@ -37,19 +55,21 @@
         <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-secondary">Tokyo</button>
         </div>
+
         <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-secondary">Exchange Students</button>
         </div>
+
         <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary">Women</button>
-        </div>
+          <button type="button" class="btn btn-secondary">Women</button>
+        </div>   
     </div>
 
     <div class="card-deck">
         <div class="card">
           <img src="img/sample.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Tokyo</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             <a href="#" class="btn btn-primary">Join</a>
           </div>
@@ -78,8 +98,9 @@
           <div class="card-footer">
             <small class="text-muted">Last updated 3 mins ago</small>
           </div>
-        </div>
       </div>
+    </div>
+
 </body>
 
 </html>

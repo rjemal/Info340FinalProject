@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="main page of the web app">
     <meta name="author" content="Rae Ouyang, Rawuda Jemal, and Bootstrap contributors">
-    <title>Travel Community</title>
+    <title>Travel Community | Create Community</title>
+
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-    <link href="https://assets-global.website-files.com/583347ca8f6c7ee058111b3b/css/webflow-dot-com.webflow.04be4bec7.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://assets-global.website-files.com/583347ca8f6c7ee058111b3b/css/webflow-dot-com.webflow.04be4bec7.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main_page_style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/create_page.css">
 </head>
 
 <body>
@@ -24,43 +24,60 @@
                 <div class="b-nav__right">
                     <div class="b-nav__links">
                         <a class="b-nav__link" href="/find_community_page.html">Find Community</a>
-                        <a class="b-nav__link2" href="/create_community_page.html">Create Community</a>
+                        <a class="b-nav__link" href="/create_community_page.html">Create Community</a>
                     </div>
                     <a id="continue-nav" href="#" class="nav__sign-up cc-black cc-main w-inline-block">
                         <div>Sign in</div>
                     </a>
+
+                    <div data-dealy="0" class="b-nav-menu__dropdown w-dropdown">
+                      <div data-ix="blog-nav-menu" class="b-menu-icon__wrap w-dropdown-toggle">
+                        <div class="b-menu-icon cc-menu-icon--lll"></div>
+                        <div class="b-menu-icon cc-menu-icon--x"></div>
+                      </div>
+                      <nav class="b-nav-menu__list w-dropdown-list">
+                        <a href="/find_community_page.html" class="b-nav-menu__list w-dropdown-link">Find Community</a>
+                        <a href="/create_community_page.html" class="b-nav-menu__list w-dropdown-link">Create Community</a>
+                        <a href="#" class="nav__sign-up cc-blog cc-mobile w-button" class="b-nav-menu__list w-dropdown-link">Sign in</a>
+                      </nav>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-<h1>
-    Create A New Community
-</h1>
 
-<div class="container">
-    <p>
-        
-        <input type="text" name="search" placeholder="City" size="100">
-    </p> 
-    <p>
-        <input type="text" name="search" placeholder="Country" size="100">
-    </p>
-    <p>
-        <input type="text" name="search" placeholder="Community Name" size="100">
-    </p>
-     <p>
-        <input type="text" name="search" placeholder="Description" size="100">
-    </p>
-     <p>
-        Upload Image
-     </p>
-     <p>
-    <img src="img/placeholder.png" alt="Image placeholder"  >
-</p>
-<p>
-    <a href="#" class="btn btn-primary" aria-label="create button">create</a>
-</p>
-</div>
+        <div data-ix="blog-nav-menu" class="b-menu-icon__wrap w-dropdown-toggle" tabindex="0" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" style="outline: none;">
+          <div class="b-menu-icon cc-menu-icon--lll" style="display: block;"></div>
+          <div class="b-menu-icon cc-menu-icon--x" style="display: none;"></div>
+        </div>
+    </nav>
+
+    <h1>
+        Create A New Community
+    </h1>
+
+    <div class="container">
+        <p>
+            <input type="text" name="search" placeholder="City" size="100">
+        </p> 
+        <p>
+            <input type="text" name="search" placeholder="Country" size="100">
+        </p>
+        <p>
+            <input type="text" name="search" placeholder="Community Name" size="100">
+        </p>
+        <p>
+            <input type="text" name="search" placeholder="Description" size="100">
+        </p>
+        <p>
+            Upload Image
+        </p>
+        <p>
+        <img src="img/placeholder.png" alt="Image placeholder"  >
+        </p>
+        <p>
+            <a href="#" class="btn btn-primary" aria-label="create button">create</a>
+        </p>
+    </div>
 </body>
 
 </html>
